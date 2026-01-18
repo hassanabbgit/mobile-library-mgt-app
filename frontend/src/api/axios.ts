@@ -2,7 +2,7 @@ import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const api = axios.create({
-  baseURL: 'http://172.31.241.1:5004',
+  baseURL: 'https://mobile-library-mgt-app.onrender.com',
 });
 
 api.interceptors.request.use(async (config) => {
