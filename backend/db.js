@@ -1,5 +1,5 @@
 // db.js
-require('dotenv').config(); // load .env file
+//require('dotenv').config(); // load .env file
 const knex = require('knex');
 
 const db = knex({
